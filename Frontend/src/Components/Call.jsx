@@ -133,4 +133,5 @@ const Call = ({socketRef}) => {
   );
 }
 
+// Video call component with WebRTC
 export default Call;
