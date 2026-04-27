@@ -194,4 +194,5 @@ const Chatbot = ({ socket: passedSocket }) => {
   );
 };
 
+// Standalone AI chatbot page
 export default Chatbot;
