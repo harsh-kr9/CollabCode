@@ -290,5 +290,4 @@ const Hero = () => {
   );
 };
 
-// Landing page hero with animated code block
 export default Hero;
