@@ -36,4 +36,5 @@ const EDtor = ({ socket, roomId }) => {
     )
 }
 
+// Main collaborative code editor component
 export default EDtor
