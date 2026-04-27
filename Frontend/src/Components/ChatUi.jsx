@@ -175,5 +175,4 @@ const ChatUi = ({ socketRef }) => {
     );
 };
 
-// Team chat UI for editor sidebar
 export default ChatUi;
