@@ -121,7 +121,8 @@
 //   );
 // }
 
-// export default Signin;
+// // Sign in page with email and google auth
+export default Signin;
 
 
 
@@ -238,4 +239,5 @@ const Signin = () => {
   );
 };
 
+// Sign in page with email and google auth
 export default Signin;
