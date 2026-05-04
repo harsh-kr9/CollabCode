@@ -155,5 +155,4 @@ const Signup = () => {
   );
 }
 
-// Sign up page with form validation
 export default Signup;
