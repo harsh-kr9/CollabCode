@@ -64,4 +64,5 @@ const MainDashBoard = () => {
     );
 };
 
+// Main dashboard with product cards
 export default MainDashBoard;
