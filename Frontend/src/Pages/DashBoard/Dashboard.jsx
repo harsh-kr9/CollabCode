@@ -54,5 +54,4 @@ const Dashboard = () => {
     );
 }
 
-// Dashboard layout with sidebar navigation
 export default Dashboard;
