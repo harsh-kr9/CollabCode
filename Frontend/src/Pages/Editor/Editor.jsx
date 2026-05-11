@@ -118,5 +118,4 @@ const Editor = () => {
   );
 }
 
-// Collaborative editor page with socket rooms
 export default Editor;
