@@ -114,6 +114,7 @@ io.on('connection', (socket) => {
             socket.emit('botResponse', response);
         } catch (error) {
             console.error('Error handling user message:', error);
+            socket.emit('botResponse', "I'm sorry, I'm having trouble connecting to my AI brain right now. Please check your Google API key or try again later.");
         }
     });
 });

@@ -9,6 +9,7 @@ const messageHistories = {};
 
 // Initialize the chatbot model
 const model = new ChatGoogleGenerativeAI({
+  apiKey: process.env.GOOGLE_API_KEY,
   modelName: "gemini-pro",
   maxOutputTokens: 2048,
 });
