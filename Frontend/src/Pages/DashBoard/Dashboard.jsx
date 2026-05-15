@@ -6,6 +6,7 @@ import MainDashBoard from './MainDashBoard'
 import NewProject from './Newproject'
 import Savedfile from './Savedfile'
 import Stats from './Stats'
+import { About } from '../index';
 import { useFirebase } from '../../Context/FirebaseContext';
 
 const Dashboard = () => {
