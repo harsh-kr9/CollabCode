@@ -38,6 +38,7 @@ const Dashboard = () => {
                 <Route path='newproject' element={<NewProject />} />
                 <Route path='saved' element={<Savedfile />} />
                 <Route path='stats' element={<Stats />} />
+                <Route path='help' element={<About />} />
             </Routes>
 
         </>

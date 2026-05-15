@@ -25,16 +25,20 @@ const Chatbot = ({socket}) => {
     setAvatar(user?.photoURL);
 
     // Listen for bot responses from the server
-    socket?.current?.on('botResponse', (response) => {
-      setMessages((prev) => [...prev, { sender: 'bot', text: response }]);
-      setLoading(false);
-    });
+    if (socket && socket.current) {
+        socket.current.on('botResponse', (response) => {
+          setMessages((prev) => [...prev, { sender: 'bot', text: response }]);
+          setLoading(false);
+        });
+    }
 
     // Clean up when the component is unmounted
     return () => {
-      socket?.current?.off('botResponse');
+      if (socket && socket.current) {
+          socket.current.off('botResponse');
+      }
     };
-  }, [socket.current]);
+  }, [socket?.current]);
 
   const handleSendMessage = () => {
     if (!input.trim()) return;
