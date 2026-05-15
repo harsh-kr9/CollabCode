@@ -28,6 +28,20 @@ const Team = () => {
                             </div>
                          </figcaption>
                       </figure>
+
+                      <figure class="sub-history">
+                         <div class="image" data-aos="zoom-in">
+                            <div className='h-56 w-full bg-slate-700 flex items-center justify-center text-white text-4xl font-bold'>RC</div>
+                         </div>
+                         <figcaption className=' bg-slate-900 '>
+                            <h3 className='text-2xl font-heading font-bold'>Rohit Chandra</h3>
+                            <h4 className='text-lg font-sans'>Full Stack Developer</h4>
+                            <div className=' w-full py-8 bg-transparent flex  gap-8 justify-center  items-center '>
+                               <Link to='https://github.com/Rohit-hub2311/' ><FontAwesomeIcon  icon={faGithub} className='text-white h-8 w-8 ' /></Link>
+                               <Link to='https://www.linkedin.com/in/rohit-chandra-8349822a3'><FontAwesomeIcon icon={faLinkedin} className='text-white h-8 w-8' /></Link>
+                            </div>
+                         </figcaption>
+                      </figure>
                    </div>
                 </div>
             </div>
