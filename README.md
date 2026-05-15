@@ -80,12 +80,7 @@
 
 ## 👨‍💻 Developed By
 
-**Harsh Kumar**  
-*Full Stack Developer*  
-[GitHub](https://github.com/harsh-kr9) | [LinkedIn](https://www.linkedin.com/in/harsh-kumar-b41b44265/)
+**Harsh Kumar**   
+[LinkedIn](https://www.linkedin.com/in/harsh-kumar-b41b44265/)
 
 ---
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
