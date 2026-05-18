@@ -491,7 +491,9 @@ const runCode = async (req, res) => {
     }
 };
 
+// Workspace controller with compile and socket handlers
 module.exports = runCode;
 
 
+// Workspace controller with compile and socket handlers
 module.exports = { createSoloWorkspace,createTeamWorkspace,joinTeam,showTeam,removeTeamMembers,savedWorkspace,deleteWorkspace,languageSelector,saveCode,runCode,leaveWorkspace,saveChat,getChat };
