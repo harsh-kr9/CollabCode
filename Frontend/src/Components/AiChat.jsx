@@ -27,5 +27,4 @@ const AiChat = ({ socketRef }) => {
     );
 }
 
-// AI assistant sidebar in editor
 export default AiChat;
