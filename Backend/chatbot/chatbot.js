@@ -61,4 +61,5 @@ function createNewSession() {
 }
 
 // Export functions using CommonJS
+// Langchain chatbot with gemini model
 module.exports = { handleChat, createNewSession };
