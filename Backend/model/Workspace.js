@@ -85,4 +85,5 @@ const WorkspaceSchema = new mongoose.Schema({
 
 const WorkspaceModel = mongoose.model('Workspace', WorkspaceSchema);
 
+// Workspace model with project and member data
 module.exports = WorkspaceModel;
