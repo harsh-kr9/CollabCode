@@ -80,6 +80,7 @@ const logout = async (req, res) => {
 
 
 
+// Auth controller with firebase uid
 module.exports = {
     register,
     login,
