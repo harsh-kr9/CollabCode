@@ -28,5 +28,4 @@ const User = mongoose.model('User', UserSchema);
 
 User.createIndexes();
 
-// User model with optional profile fields
 module.exports = User;
